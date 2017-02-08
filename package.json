@@ -1,0 +1,25 @@
+{
+  "name": "node-st",
+  "version": "1.0.0",
+  "description": "node studies",
+  "main": "index.js",
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonamquintao/node-st.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Leonam R. Quintão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonamquintao/node-st/issues"
+  },
+  "homepage": "https://github.com/Leonamquintao/node-st#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
