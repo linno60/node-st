@@ -7,6 +7,10 @@ app.get('/products', (request, response) => {
 })
 
 // console.log(timers.simpleTimer())
+// console.log(timers.simpleTimerCancel())
+// console.log(timers.timeOutInterval())
+// console.log(timers.setIntervalTimer())
+// console.log(timers.setImmideateZero())
 
 app.listen(3000, () => {
   console.log('------ server running ------')
