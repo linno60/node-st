@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Leonamquintao/node-st#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "prompt": "^1.0.0"
   }
 }
