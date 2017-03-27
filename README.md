@@ -2,8 +2,8 @@
 Repository destined for my node.js studies.
 
 ##Commands
-npm install
-npm install express express --save
+npm install express --save
+npm install mysql --save
 
 #Important
 Don't forget to create archive .gitignore

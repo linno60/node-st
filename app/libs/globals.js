@@ -14,5 +14,5 @@
 
 module.exports = {
   globalObject: globalObject,
-  globalProcess: globalProcess
+  globalProcess: globalProcess,
 }
