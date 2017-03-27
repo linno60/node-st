@@ -35,6 +35,4 @@ var migrate = (() => {
   connection.end()
 })
 
-module.exports = {
-  migrate: migrate
-}
+migrate()
