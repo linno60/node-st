@@ -7,7 +7,7 @@
 + npm install express --save
 + npm install mysql --save
 
-##### Important
+#### Important
 Don't forget to create archive .gitignore
 
 echo "" > .gitignore
@@ -17,3 +17,12 @@ git add .gitignore
 git commit -m "message" .gitignore
 
 and eventually add "node_modules" to the file ".gitignore"
+
+
+### Instal project enviroment
+
+enter in the path /app/config
+
+run command node database.js
+
+> This creates the database and all tables for the API to work correctly...

@@ -2,7 +2,7 @@
   "name": "node-st",
   "version": "1.0.0",
   "description": "node studies",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nope"
   },
