@@ -6,6 +6,7 @@
 ## Dependencies
 + npm install express --save
 + npm install mysql --save
++ npm install fs --save
 
 #### Important
 Don't forget to create archive .gitignore
