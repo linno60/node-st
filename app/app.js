@@ -1,26 +1,26 @@
-var express = require('express')
+var express = require('express');
 
-var db = require('./config/dbconnect')
-var timers = require('./libs/timers')
-var globals = require('./libs/globals')
+var db = require('./database/dbconnect');
+var timers = require('./libs/timers');
+var globals = require('./libs/globals');
 
-var app = express()
-var port = process.env.PORT || 3000
+var app = express();
+var port = process.env.PORT || 3000;
 
 app.get('/products', (request, response) => {
 
-  let connection = db.connect()
+  let connection = db.connect();
 
   connection.query('SELECT * FROM figures', (error, results) => {
     if(error) {
-      console.log('Erro na consulta ao banco! ', error)
+      console.log('Erro na consulta ao banco! ', error);
     } else {
-      response.send(results)
+      response.send(results);
     }
   })
-  connection.end()
+  connection.end();
 })
 
 app.listen(port, () => {
-  console.log(' ---------- server running in port: '+port+ ' ----------')
+  console.log(' ---------- server running in port: '+port+ ' ----------');
 })

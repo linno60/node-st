@@ -22,8 +22,8 @@ and eventually add "node_modules" to the file ".gitignore"
 
 ### Instal project enviroment
 
-enter in the path /app/config
+enter in the path /app/database
 
-run command node database.js
+run command node migration.js
 
 > This creates the database and all tables for the API to work correctly...

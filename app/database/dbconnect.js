@@ -1,4 +1,4 @@
-let mysql = require('mysql')
+let mysql = require('mysql');
 
 var connect = (() => {
   return mysql.createConnection({
@@ -6,7 +6,7 @@ var connect = (() => {
     user: 'root',
     password: '',
     database: 'node-st'
-  })
+  });
 })
 
 module.exports = {
