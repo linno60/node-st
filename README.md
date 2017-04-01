@@ -20,7 +20,7 @@ git commit -m "message" .gitignore
 and eventually add "node_modules" to the file ".gitignore"
 
 
-### Instal project enviroment
+### Instal project environment
 
 enter in the path /app/database
 
